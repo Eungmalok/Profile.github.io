@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #1f232d;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    /* background-color: rgb(6, 118, 19); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar .logo{
+    font-size: 65px;
+    font-weight: 7000;
+    color: rgb(23, 167, 10);
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li {
+    list-style: none;
+    margin-left: 35px;
+
+}
+.navbar ul li a {
+font-size: 20px;
+font-weight: 500;
+transition: .5s;
+color: white;
+}
+.navbar ul li:hover a,
+.navbar ul li.active a {
+    color: rgb(0, 255, 30);
+}
+.home {
+    color: rgb(13, 131, 62);
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 35%;
+    left: 34%;
+    font-size: 50px;
+}
+
+.logo1 {
+    color: antiquewhite;
+    position: absolute;
+    top: 130%;
+    left: 15%;
+    
+}
+
+.div-1 ul li a {
+color: rgb(222, 224, 222);
+display: flex;
+justify-content: center;
+position: absolute;
+top: 80%;
+left: 45%;
+}
+.div-1 ul li:hover a,
+.div-1 ul li.div-2 a {
+color: rgb(0, 159, 0);
+}
+
+.home-3 h6 {
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 95%;
+    left: 2%;
+}
